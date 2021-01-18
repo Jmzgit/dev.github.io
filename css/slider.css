@@ -105,7 +105,7 @@ h2 span a {
    display: inline-block;
    color: #1d1f2a;
    width: auto;
-   letter-spacing: .1em
+   letter-spacing: .1em;
 }
 
 h2 span a:hover {
