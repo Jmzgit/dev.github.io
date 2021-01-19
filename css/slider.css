@@ -1,6 +1,7 @@
 h1 {
    display: none;
-   visibility: hidden
+   visibility: hidden;
+   color: #ffffff;
 }
 
 .rw-wrapper {
