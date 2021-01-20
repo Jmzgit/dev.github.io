@@ -1,4 +1,4 @@
-h1 {
+body h1 {
    display:none;
    color: #ffffff
 }
@@ -101,6 +101,8 @@ h1 {
 }
 
 h2 span a {
+   font-family: 'Andika New Basic', sans-serif;
+   cursor: pointer;
    display: inline-block;
    color: #1d1f2a;
    width: auto;
@@ -110,11 +112,6 @@ h2 span a {
 
 h2 span a:hover {
    color: #bbb
-}
-
-h2 span {
-   font-family: 'Andika New Basic', sans-serif;
-   cursor: pointer
 }
 
 footer {
