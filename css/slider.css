@@ -1,18 +1,14 @@
-h1 {
-   margin-top: 0;
-   margin-bottom: 0;
-}
-
 .rw-wrapper {
    float: left;
    position: relative;
    margin: 0 auto 0 auto;
-   padding: 25px 35px;
-   font-family: 'Bree Serif', serif
+   padding: 5px 5px;
+   font-family: 'Bree Serif', serif;
+
 }
 
 .rw-sentence img {
-   width: 75%;
+   width: 70%;
    z-index: -1
 }
 
@@ -32,7 +28,7 @@ h1 {
 .rw-words span {
    display: inline;
    text-indent: 32px;
-   font-size: 230%
+   font-size: 215%
 }
 
 .rw-words-1 span {
