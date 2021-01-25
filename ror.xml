@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.weknowstudio.com/</title>
+  <link>https://www.weknowstudio.com/</link>
+<language>en-US</language>
+<sy:updatePeriod> hourly </sy:updatePeriod>
+<sy:updateFrequency> 1 </sy:updateFrequency>
+
+<item>
+     <link>https://www.weknowstudio.com/</link>
+     <title>Diseño de Páginas Web efectivas y inteligentes | Ensenada</title>
+     <description>We Know Studio ofrece el diseño de paginas web inteligentes y fluidas para posicionar tu sitio en Google. Tu presencia en linea es parte de la primera impresion hacia tus clientes y lo  entendemos. Ubicados en Ensenada, te ofrecemos asesoria en modificacion o creacion de tu sitio web.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<image>
+<url>https://www.weknowstudio.com/favicon-32x32.png</url>
+<title>Diseño y Desarrollo Web en Ensenada</title>
+<link>https://www.weknowstudio.com/</link>
+<width>32</width>
+<height>32</height>
+</image>
+
+</channel>
+</rss>
+  
