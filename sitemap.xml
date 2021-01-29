@@ -4,21 +4,18 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+            xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
   <loc>https://www.weknowstudio.com/</loc>
-  <lastmod>2021-01-25T02:56:45+00:00</lastmod>
-    <image:image>
-      <image:loc>https://www.weknowstudio.com/img/we%20know%20studio.webp</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.weknowstudio.com/favicon-48x48.png</image:loc>
-    </image:image>
+  <lastmod>2021-01-29T08:43:17+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <image:image>
+    <image:loc>https://www.weknowstudio.com/img/we%20know%20studio.webp</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.weknowstudio.com/favicon-48x48.png</image:loc>
+  </image:image>
 </url>
-
-
-
-
 
 </urlset>
