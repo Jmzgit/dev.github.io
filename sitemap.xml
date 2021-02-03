@@ -3,22 +3,14 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://www.weknowstudio.com/</loc>
-  <lastmod>2021-01-25T02:56:45+00:00</lastmod>
-    <image:image>
-      <image:loc>https://www.weknowstudio.com/img/we%20know%20studio.webp</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.weknowstudio.com/favicon-32x32.png</image:loc>
-    </image:image>
+  <lastmod>2021-02-03T03:49:40+00:00</lastmod>
 </url>
-
-
-
 
 
 </urlset>
