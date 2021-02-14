@@ -225,11 +225,7 @@ footer {
 	#smallBlock {
 		height: 24px
 	}
-	h1 {
-		display: none;
-		visibility: hidden;
-		color: #fff
-	}
+
 	.rw-wrapper {
 		margin: -10px 0 0 10px;
 		padding-left: 0
