@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'multicolore_proregular';
-    src: url('multicolore_pro-webfont.woff2') format('woff2'),
-         url('multicolore_pro-webfont.woff') format('woff');
+    src: url('webkit font/multicolore_pro-webfont.woff2') format('woff2'),
+         url('webkit font/multicolore_pro-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
