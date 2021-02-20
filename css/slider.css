@@ -101,7 +101,7 @@ h1  {
 
 h2 span a {
    font-size: 200%;
-   font-family: 'multicolore_proregular';
+   font-family: 'Roboto', sans-serif;
    cursor: pointer;
    display: inline-block;
    color: #1d1f2a;
