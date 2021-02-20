@@ -89,7 +89,7 @@
 
 .mySample {
    position: fixed;
-   right: 10%;
+   right: 6.5%;
    bottom: 5px;
    width: 90vw;
    text-align: right;
@@ -104,7 +104,7 @@ h2 span a {
    font-family: 'Roboto', sans-serif;
    cursor: pointer;
    display: inline-block;
-   color: #1d1f2a;
+   color: rgb(20,76,140);
    width: auto;
    letter-spacing: 0.05em;
    text-decoration: none;
