@@ -4,14 +4,19 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
+
   <loc>https://www.weknowstudio.com/</loc>
   <lastmod>2021-02-14T07:02:15+00:00</lastmod>
   <changefreq>daily</changefreq>
+  <image:image>
+   <image:loc>https://www.weknowstudio.com/img/we know studio.webp</image:loc>
+ </image:image>
+ <image:image>
+   <image:loc>https://www.weknowstudio.com/img/weknowstudio_blcklogo.webp</image:loc>
+ </image:image>
+
 </url>
-
-
 </urlset>
