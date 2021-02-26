@@ -7,7 +7,7 @@
 }
 
 .rw-sentence img {
-   width: 90%;
+   width: 120%;
    z-index: -1;
 }
 
@@ -100,7 +100,7 @@ h1  {
 }
 
 h2 span a {
-   font-size: 200%;
+   font-size: 250%;
    font-family: 'Ramabhadra', sans-serif;
    cursor: pointer;
    display: inline-block;
@@ -226,6 +226,10 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+   .rw-sentence img {
+      width: 100%;
+      z-index: -1;
+   }
    #smallBlock {
       height: 45px
    }
@@ -233,13 +237,6 @@ footer {
    .rw-sentence span {
       font-size: 30px;
       text-indent: 4vw
-   }
-
-   h2 {
-      font-size: 100%;
-      display: inline-block;
-      color: #1d1f2a;
-      width: 80%
    }
 }
 
@@ -258,10 +255,6 @@ footer {
       text-indent: 4vw
    }
 
-   h2 {
-      font-size: 75%
-   }
-
    .rw-words-1 span {
       position: absolute;
       opacity: 0;
@@ -276,42 +269,34 @@ footer {
       -webkit-animation-delay: 1s;
       -ms-animation-delay: 1s;
       animation-delay: 1s;
-      color: #6b889d;
-      text-shadow: .1px .1px .1px #6b889d
    }
 
    .rw-words-1 span:nth-child(3) {
       -webkit-animation-delay: 6s;
       -ms-animation-delay: 6s;
       animation-delay: 6s;
-      color: #6b739d;
-      text-shadow: .1px .1px .1px #6b739d
    }
 
    .rw-words-1 span:nth-child(4) {
       -webkit-animation-delay: 10s;
       -ms-animation-delay: 10s;
       animation-delay: 10s;
-      color: #7a6b9d;
-      text-shadow: .1px .1px .1px #7a6b9d
    }
 
    .rw-words-1 span:nth-child(5) {
       -webkit-animation-delay: 13.5s;
       -ms-animation-delay: 13.5s;
       animation-delay: 13.5s;
-      color: #9b6b9d;
-      text-shadow: .1px .1px .1px #9b6b9d
    }
 
    .rw-words-1 span:nth-child(6) {
       -webkit-animation-delay: 17s;
       -ms-animation-delay: 17s;
       animation-delay: 17s;
-      color: #9d6b86;
-      text-shadow: .1px .1px .1px #9d6b86
    }
-
+   h2 span a {
+      font-size: 100%;
+   }
    @-webkit-keyframes rotateWord {
       0% {
          opacity: .7;
@@ -409,7 +394,4 @@ footer {
       text-indent: 4vw
    }
 
-   h2 {
-      font-size: 75%
-   }
 }
