@@ -8,7 +8,7 @@
 
 .rw-sentence img {
    width: 90%;
-   z-index: -1
+   z-index: -1;
 }
 
 .rw-sentence {
@@ -34,26 +34,26 @@
    position: absolute;
    opacity: 0;
    overflow: hidden;
-   color: #6b969d;
+   color: #6b969d; /* eliminado*/
    -webkit-animation: rotateWord 18s linear infinite 0s;
    -ms-animation: rotateWord 18s linear infinite 0s;
    animation: rotateWord 18s linear infinite 0s
 }
-
+/* Inicio rotation*/
 .rw-words-1 span:nth-child(2) {
    -webkit-animation-delay: 1s;
    -ms-animation-delay: 1s;
    animation-delay: 1s;
-   color: #6b889d;
-   text-shadow: .1px .1px .1px #6b889d
+   color: #ff1b00;  /* GRADIENT PRINCIPIO*/
+   text-shadow: .1px .1px .1px #ff1b00
 }
 
 .rw-words-1 span:nth-child(3) {
    -webkit-animation-delay: 4s;
    -ms-animation-delay: 4s;
    animation-delay: 4s;
-   color: #6b739d;
-   text-shadow: .1px .1px .1px #6b739d
+   color: #db7c26;
+   text-shadow: .1px .1px .1px #db7c26
 }
 
 .rw-words-1 span:nth-child(4) {
@@ -104,7 +104,7 @@ h2 span a {
    font-family: 'Roboto', sans-serif;
    cursor: pointer;
    display: inline-block;
-   color: rgb(21,58,103);
+   color: rgb(0,0,0);
    width: auto;
    letter-spacing: 0.05em;
    text-decoration: none;
