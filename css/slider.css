@@ -2,7 +2,7 @@
    float: left;
    position: relative;
    margin: 0 auto 0 auto;
-   padding: 6vh 3vw;
+   padding: 3vh 3vw;
    font-family: 'Bree Serif', serif
 }
 
@@ -93,7 +93,7 @@
    right: 6.5%;
    bottom: 5px;
    width: 90vw;
-   text-align: right; 
+   text-align: right;
 }
 
 h1  {
