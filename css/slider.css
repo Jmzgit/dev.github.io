@@ -200,7 +200,7 @@ div#position {
 .line-1{
    font-family: 'Quicksand', sans-serif;
     width: 50%;
-    margin: 88% auto 0 5%;
+    margin: 12% auto 0 5%;
     border-right: 8px solid transparent;
     font-size: 180%;
     float: left;
@@ -237,6 +237,7 @@ div#position {
    }
    .line-1{
        font-size: 130%;
+       margin: 28% auto 0 5%;
    }
 }
 
@@ -368,7 +369,8 @@ div#position {
       }
    }
    .line-1{
-       font-size: 75%;
+       font-size: 73%;
+       margin: 88% auto 0 5%;
    }
 }
 
