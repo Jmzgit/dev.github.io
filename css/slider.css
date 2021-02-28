@@ -1,9 +1,10 @@
+
 .rw-wrapper {
    float: left;
-   position: relative;
+   position: static;
    margin: 0 auto 0 auto;
    padding: 3vh 3vw;
-   font-family: 'Bree Serif', serif
+   font-family: 'Bree Serif', serif;
 }
 
 .rw-sentence {
@@ -26,7 +27,6 @@
 }
 
 .rw-words span {
-   display: inline;
    text-indent: 35px;
    font-size: 205%;
 }
@@ -189,6 +189,39 @@ footer {
    }
 }
 
+/* NOTE: typed effect */
+div#position {
+      clear: both;
+      height: 3em;
+      vertical-align: middle;
+       width: 90%;
+}
+
+.line-1{
+   font-family: 'Quicksand', sans-serif;
+    width: 50%;
+    margin: 88% auto 0 5%;
+    border-right: 8px solid transparent;
+    font-size: 180%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Animation */
+.typing {
+  animation: typewriter 6s steps(144) 3s 1 normal both,
+             blinkTextCursor 1200ms steps(144) 8 normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 90%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: transparent;}
+  to{border-right-color: orange;}
+}
+
 @media screen and (max-width:768px) {
    .rw-sentence img {
       width: 100%;
@@ -201,6 +234,9 @@ footer {
    .rw-sentence span {
       font-size: 30px;
       text-indent: 4vw
+   }
+   .line-1{
+       font-size: 130%;
    }
 }
 
@@ -261,6 +297,7 @@ footer {
    h2 span a {
       font-size: 100%;
    }
+
    @-webkit-keyframes rotateWord {
       0% {
          opacity: .7;
@@ -330,6 +367,9 @@ footer {
          transform: translateY(-70px)
       }
    }
+   .line-1{
+       font-size: 75%;
+   }
 }
 
 @media screen and (max-width:320px) {
@@ -342,6 +382,9 @@ footer {
    .rw-sentence span {
       font-size: 100%;
       text-indent: 4vw
+   }
+   .line-1{
+       font-size: 55%;
    }
 
 }
