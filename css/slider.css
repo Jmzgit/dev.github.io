@@ -210,8 +210,8 @@ div#position {
 
 /* Animation */
 .typing {
-  animation: typewriter 6s steps(144) 3s 1 normal both,
-             blinkTextCursor 1200ms steps(144) 8 normal;
+  animation: typewriter 6s steps(244) 3s 1 normal both,
+             blinkTextCursor 1200ms steps(244) 8 normal;
 }
 @keyframes typewriter{
   from{width: 0;}
@@ -220,6 +220,18 @@ div#position {
 @keyframes blinkTextCursor{
   from{border-right-color: transparent;}
   to{border-right-color: orange;}
+}
+
+@media screen and (min-width:1400px) {
+   .line-1{
+       font-size: 180%;
+       margin: 10% auto 0 5%;
+   }
+
+   @keyframes typewriter{
+     from{width: 0;}
+     to{width: 65%;}
+   }
 }
 
 @media screen and (max-width:768px) {
@@ -386,7 +398,7 @@ div#position {
       text-indent: 4vw
    }
    .line-1{
-       font-size: 55%;
+       font-size: 50%;
    }
 
 }
