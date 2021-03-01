@@ -171,7 +171,6 @@ footer {
 
    8% {
       opacity: .9;
-
    }
 
    20% {
@@ -189,7 +188,7 @@ footer {
    }
 }
 
-/* NOTE: typed effect */
+/* : ------------------------------------------------------ */
 div#position {
       clear: both;
       height: 3em;
@@ -201,17 +200,16 @@ div#position {
    font-family: 'Quicksand', sans-serif;
     width: 50%;
     margin: 12% auto 0 5%;
-    border-right: 8px solid transparent;
+    border-right: 8px solid orange;
     font-size: 180%;
     float: left;
     white-space: nowrap;
     overflow: hidden;
 }
 
-/* Animation */
 .typing {
-  animation: typeset 6s steps(244) 3s 1 normal both,
-             Cursor 1200ms steps(244) 10 normal;
+  animation: typeset 7s steps(44) 3s 1 normal both,
+             Cursor 1200ms steps(44) 10 normal;
 }
 @keyframes typeset{
   from{width: 0;}
@@ -401,6 +399,7 @@ div#position {
    }
    .line-1{
        font-size: 45%;
+       margin: 100% auto 0 0;
    }
 
 
