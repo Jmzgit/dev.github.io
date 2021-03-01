@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <meta name="robots" content="index,follow"/>
+      <meta name="googlebot" content="index,follow"/>
+      <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Quicksand:wght@300&family=Ramabhadra:wght@400&display=swap" rel="stylesheet">
+      <meta charset="utf-8">
+      <title>Test Rotatelift</title>
+      <style media="screen">
+         body {
+            font-family: 'Quicksand', sans-serif;
+         }
+         #myShadow {
+
+         }
+         h1 {
+            color: orange;
+            bottom:0;
+
+            }
+
+         .myInfo {
+            font-size: 100%;
+            height:4rem;
+            position: static;
+            opacity: 1;
+            overflow: hidden;
+            -webkit-animation: rotateWord 3s ease 1 0s;
+            -ms-animation: rotateWord 3s ease 1 0s;
+            animation: rotateWord 18s ease 1 0s
+         }
+         @keyframes rotateWord {
+            0% {
+               opacity: 1 -webkit-transform:translateY(90px);
+               transform: translateY(90px);
+               transform: rotateX(90deg);
+            }
+            30%{
+               transform: scaleX(.8);
+            }
+
+            75% {
+               opacity: 1;
+               transform: rotateX(0deg);
+            }
+         }
+
+      </style>
+   </head>
+   <body>
+   <div class="myInfo" id="myShadow">
+
+   <h1>Alumno Desarrollo de Software en CESUN/Tij </h1>
+   </div>
+
+   </body>
+</html>

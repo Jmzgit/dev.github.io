@@ -210,29 +210,31 @@ div#position {
 
 /* Animation */
 .typing {
-  animation: typewriter 6s steps(244) 3s 1 normal both,
-             blinkTextCursor 1200ms steps(244) 10 normal;
+  animation: typeset 6s steps(244) 3s 1 normal both,
+             Cursor 1200ms steps(244) 10 normal;
 }
-@keyframes typewriter{
+@keyframes typeset{
   from{width: 0;}
   to{width: 90%;}
 }
-@keyframes blinkTextCursor{
+@keyframes Cursor{
   from{border-right-color: transparent;}
   to{border-right-color: orange;}
 }
 
+/* : ------------------------------------------------------ */
 @media screen and (min-width:1400px) {
    .line-1{
        font-size: 180%;
        margin: 10% auto 0 5%;
    }
 
-   @keyframes typewriter{
+   @keyframes typeset{
      from{width: 0;}
-     to{width: 50%;}
+     to{width: 65%;}
    }
 }
+
 
 @media screen and (max-width:768px) {
    .rw-sentence img {
@@ -399,8 +401,7 @@ div#position {
    }
    .line-1{
        font-size: 45%;
-
-
    }
+
 
 }
