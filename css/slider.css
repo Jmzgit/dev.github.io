@@ -208,8 +208,8 @@ div#position {
 }
 
 .typing {
-  animation: typeset 7s steps(44) 3s 1 normal both,
-             Cursor 1200ms steps(44) 10 normal;
+  animation: typeset 7s steps(96) 3s 1 normal both,
+             Cursor 1200ms steps(96) 10 normal;
 }
 @keyframes typeset{
   from{width: 0;}
