@@ -43,40 +43,40 @@
    -webkit-animation-delay: 1s;
    -ms-animation-delay: 1s;
    animation-delay: 1s;
-   color: rgb(255, 149, 5);
-   text-shadow: .1px .1px .1px rgb(255, 149, 5)
+   color: rgba(255, 149, 5, 0.7);
+   text-shadow: .1px .1px .1px rgba(255, 149, 5, 0.7)
 }
 
 .rw-words-1 span:nth-child(3) {
    -webkit-animation-delay: 4s;
    -ms-animation-delay: 4s;
    animation-delay: 4s;
-   color: rgb(255, 149, 5);
-   text-shadow: .1px .1px .1px rgb(255, 149, 5)
+   color: rgba(255, 149, 5, 0.7);
+   text-shadow: .1px .1px .1px rgba(255, 149, 5, 0.7)
 }
 
 .rw-words-1 span:nth-child(4) {
    -webkit-animation-delay: 8.5s;
    -ms-animation-delay: 8.5s;
    animation-delay: 8.5s;
-   color: rgb(255, 149, 5);
-   text-shadow: .1px .1px .1px rgb(255, 149, 5)
+   color: rgba(255, 149, 5, 0.7);
+   text-shadow: .1px .1px .1px rgba(255, 149, 5, 0.7)
 }
 
 .rw-words-1 span:nth-child(5) {
    -webkit-animation-delay: 13.5s;
    -ms-animation-delay: 13.5s;
    animation-delay: 13.5s;
-   color: rgb(255, 149, 5);
-   text-shadow: .1px .1px .1px rgb(255, 149, 5)
+   color: rgba(255, 149, 5, 0.7);
+   text-shadow: .1px .1px .1px rgba(255, 149, 5, 0.7)
 }
 
 .rw-words-1 span:nth-child(6) {
    -webkit-animation-delay: 16s;
    -ms-animation-delay: 16s;
    animation-delay: 16s;
-   color: rgb(255, 149, 5);
-   text-shadow: .1px .1px .1px rgb(255, 149, 5)
+   color: rgba(255, 149, 5, 0.7);
+   text-shadow: .1px .1px .1px rgba(255, 149, 5, 0.7)
 }
 
 #smallBlock {
@@ -103,7 +103,7 @@ h2 span a {
    font-family: 'Ramabhadra', sans-serif;
    cursor: pointer;
    display: inline-block;
-   color: rgb(255, 149, 5);
+   color: rgba(255, 149, 5, 1);
    width: auto;
    letter-spacing: 0.05em;
    text-decoration: none
@@ -200,6 +200,7 @@ div#position {
 
 .line-1 {
    font-family: 'Quicksand', sans-serif;
+   color: rgb(28, 40, 51);
    width: 50%;
    margin: 12% auto 0 5%;
    border-right: 8px solid transparent;
