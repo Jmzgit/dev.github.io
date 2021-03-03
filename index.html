@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
    <head>
-
-      <script>
-         (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-               (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-               hjid: 2178619,
-               hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-      </script>
       <link rel="manifest" href="manifest.json">
       <meta name="google-site-verification" content="o_Igekoiz1e3O-sxUIRtWjRlpFuf9VspF-aD-BqhDVw"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,7 +67,7 @@
       <noscript>
          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB5RRZT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
       </noscript>
-      <div onload="walkPix()"></div>
+   <!-- NOTE:    <div onload="walkPix()"></div>  -->
       <main role="main" class="rw-wrapper">
          <div role="document" class="rw-sentence">
             <a href="https://www.weknowstudio.com/" title="Ensenada Webdesign">
@@ -108,7 +91,9 @@
          <h2>Alumno Desarrollo de Software en CESUN</h2>
       </div>
 
-      <!-- NOTE: <section> <img id="smallBlock" src="img/PrincessPink.webp" alt="Diseño de Páginas Web efectivas y inteligentes | Ensenada"> </section> -->
+      <!-- NOTE:
+            Lo dejare como opcion B:
+            <section> <img id="smallBlock" src="img/PrincessPink.webp" alt="Diseño de Páginas Web efectivas y inteligentes | Ensenada"> </section> -->
 
       <footer class="mySample">
          <h2 role="contentinfo">
@@ -117,6 +102,24 @@
             </span>
          </h2>
       </footer>
-      <!-- NOTE: <script src="js/wks_script.js" charset="utf-8"></script> -->
+      <!-- NOTE:
+         js para llamar 
+         <script src="js/wks_script.js" charset="utf-8"></script> -->
+      <script>
+         (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+               (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+               hjid: 2178619,
+               hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+      </script>
    </body>
 </html>
