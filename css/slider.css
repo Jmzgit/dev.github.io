@@ -1,3 +1,7 @@
+::selection {
+   color: #fff;
+  background: #D6DBDF;
+}
 .rw-wrapper {
    float: left;
    position: static;
