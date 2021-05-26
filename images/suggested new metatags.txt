@@ -1,0 +1,18 @@
+<!-- Primary Meta Tags -->
+<title>Creación o actualización con diseño de pagina web en Ensenada</title>
+<meta name="title" content="Creación o actualización con diseño de pagina web en Ensenada">
+<meta name="description" content="Diseño Web en Ensenada, BC  para posicionamiento de sitio en Google. Paginas web modernas y accesibles para posicionamiento en Google. ">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.weknowstudio.com/">
+<meta property="og:title" content="Creación o actualización con diseño de pagina web en Ensenada">
+<meta property="og:description" content="Diseño Web en Ensenada, BC  para posicionamiento de sitio en Google. Paginas web modernas y accesibles para posicionamiento en Google. ">
+<meta property="og:image" content="https://www.weknowstudio.com/img/weknowstudio.webp">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.weknowstudio.com/">
+<meta property="twitter:title" content="Creación o actualización con diseño de pagina web en Ensenada">
+<meta property="twitter:description" content="Diseño Web en Ensenada, BC  para posicionamiento de sitio en Google. Paginas web modernas y accesibles para posicionamiento en Google. ">
+<meta property="twitter:image" content="https://www.weknowstudio.com/img/weknowstudio.webp">
